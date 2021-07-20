@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signactivity.MoreDetails">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/muli_extrabold"
+            android:padding="10dp"
+            android:text="GENDER"
+            android:textAllCaps="true"
+            android:textColor="@color/naivas_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/genderChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="80dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Male"
+                android:textColor="@color/c3"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="@color/c3"
+                android:textStyle="bold" />
+
+
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/muli_extrabold"
+            android:padding="10dp"
+            android:text="Type of User"
+            android:textAllCaps="true"
+            android:textColor="@color/naivas_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/userCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/customer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Customer"
+                android:textColor="@color/c3"
+                android:textStyle="bold" />
+
+
+            <RadioButton
+                android:id="@+id/productsManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Products Manager"
+                android:textColor="@color/c3"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/financeManager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Finance Manager"
+                android:textColor="@color/c3"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/custome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dispatch Manager"
+                android:textColor="@color/c3"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/Driver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="Driver"
+                android:textColor="@color/c3"
+                android:textStyle="bold" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            android:background="@drawable/sign_button"
+            android:fontFamily="@font/muli_extrabold"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli_extrabold"
+                android:text="already registered?"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:text="Login Here"
+                android:textColor="@color/naivas_color"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

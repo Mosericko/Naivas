@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mdevs.naivas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Naivas"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".customer.activities.FeedBackReply"></activity>
+        <activity android:name=".driver.AssignedOrderDetails" />
+        <activity android:name=".driver.AssignedOrders" />
+        <activity android:name=".distributionmanager.activities.DispatchedOrders" />
+        <activity android:name=".distributionmanager.activities.DispatchMessages" />
+        <activity android:name=".distributionmanager.activities.AllDrivers" />
+        <activity android:name=".distributionmanager.activities.ApprovedForDispatch" />
+        <activity
+            android:name=".financemanager.activities.Reply"
+            android:theme="@style/UserRegistration" />
+        <activity android:name=".financemanager.activities.Messages" />
+        <activity android:name=".financemanager.activities.ApprovedOrderDetails" />
+        <activity android:name=".financemanager.activities.FinanceOrderDetails" />
+        <activity android:name=".customer.activities.OrderDetails" />
+        <activity android:name=".financemanager.activities.RejectedOrders" />
+        <activity android:name=".financemanager.activities.ApprovedOrder" />
+        <activity android:name=".financemanager.activities.PendingOrders" />
+        <activity android:name=".financemanager.activities.FinanceProfile" />
+        <activity
+            android:name=".customer.activities.FeedBackForm"
+            android:theme="@style/UserRegistration" />
+        <activity android:name=".customer.activities.Notifications" />
+        <activity android:name=".customer.activities.FAQs" />
+        <activity android:name=".customer.activities.MyOrders" />
+        <activity android:name=".customer.activities.FeedBack" />
+        <activity
+            android:name=".customer.activities.LocationForm"
+            android:theme="@style/UserRegistration" />
+        <activity android:name=".customer.activities.Payment" />
+        <activity android:name=".customer.activities.LocationDetails" />
+        <activity android:name=".customer.activities.CheckOut" />
+        <activity android:name=".customer.activities.UserProfile" />
+        <activity android:name=".customer.activities.MyProfile" />
+        <activity android:name=".customer.activities.CategoryItems" />
+        <activity android:name=".customer.activities.Cart" />
+        <activity android:name=".customer.activities.ProductDetails" />
+        <activity
+            android:name=".productmanager.ProductActivity"
+            android:theme="@style/UserRegistration" />
+        <activity android:name=".financemanager.FinanceActivity" />
+        <activity android:name=".driver.DriverActivity" />
+        <activity android:name=".distributionmanager.TransportActivity" />
+        <activity android:name=".customer.CustomerActivity" />
+        <activity android:name=".signactivity.MoreDetails" />
+        <activity
+            android:name=".signactivity.SignIn"
+            android:theme="@style/UserRegistration" />
+        <activity
+            android:name=".signactivity.SignUp"
+            android:theme="@style/UserRegistration" />
+        <activity android:name=".signactivity.IntroPrompt">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

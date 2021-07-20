@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Naivas</string>
+    <string name="create_account">create your account</string>
+    <string name="gender">Gender</string>
+    <string name="firstname">firstName</string>
+
+    <string name="usertype1">Customer</string>
+    <string name="usertype2">Product Manager</string>
+    <string name="usertype3">Finance Manager</string>
+    <string name="usertype4">Dispatch Manager</string>
+    <string name="usertype5">Driver</string>
+
+    <string name="DeliveryInfo">Delivery Information\nNormally Delivered Within
+    one hour,\nPlease enter The Exact location in The Address Section of the \nCheckOut Page</string>
+
+    <string name="lorem20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae maxime quidem qui. Iusto voluptatem, tenetur quod ipsa numquam cumque?</string>
+    <string name="pending">pending</string>
+    <string name="approved">approved</string>
+    <string name="rejected">rejected</string>
+</resources>
