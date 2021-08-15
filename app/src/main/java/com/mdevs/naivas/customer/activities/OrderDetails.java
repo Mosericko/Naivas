@@ -100,8 +100,6 @@ public class OrderDetails extends AppCompatActivity {
     }
 
 
-
-
     private void listItems() {
         String url = "https://android.officialm-devs.com/naivas/android/orders?order_num=" + orderNumber;
         listOfBoughtItems.setHasFixedSize(true);

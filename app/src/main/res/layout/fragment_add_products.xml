@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,10 +26,12 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -143,69 +146,69 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
 
-              <!--  <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:background="@drawable/stroke_layout"
-                    android:gravity="center_vertical"
-                    android:padding="10dp">
+                <!--  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginStart="10dp"
+                      android:layout_marginEnd="10dp"
+                      android:background="@drawable/stroke_layout"
+                      android:gravity="center_vertical"
+                      android:padding="10dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:text="Type of Grocery"
-                        android:textColor="@color/black"
-                        android:layout_marginLeft="10dp" />
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="10dp"
+                          android:text="Type of Grocery"
+                          android:textColor="@color/black"
+                          android:layout_marginLeft="10dp" />
 
-                    <RadioGroup
-                        android:id="@+id/prodCategory"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:orientation="vertical"
-                        android:layout_marginLeft="10dp">
+                      <RadioGroup
+                          android:id="@+id/prodCategory"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginStart="10dp"
+                          android:orientation="vertical"
+                          android:layout_marginLeft="10dp">
 
-                        <RadioButton
-                            android:id="@+id/veges"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="true"
-                            android:text="Vegetables"
-                            android:textColor="@color/black" />
+                          <RadioButton
+                              android:id="@+id/veges"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:checked="true"
+                              android:text="Vegetables"
+                              android:textColor="@color/black" />
 
 
-                        <RadioButton
-                            android:id="@+id/fruits"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Fruits"
-                            android:textColor="@color/black" />
+                          <RadioButton
+                              android:id="@+id/fruits"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Fruits"
+                              android:textColor="@color/black" />
 
-                        <RadioButton
-                            android:id="@+id/spices"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Spices"
-                            android:textColor="@color/black" />
+                          <RadioButton
+                              android:id="@+id/spices"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Spices"
+                              android:textColor="@color/black" />
 
-                        <RadioButton
-                            android:id="@+id/cereals"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Cereals"
-                            android:textColor="@color/black" />
-                    </RadioGroup>
-                </LinearLayout>-->
+                          <RadioButton
+                              android:id="@+id/cereals"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:text="Cereals"
+                              android:textColor="@color/black" />
+                      </RadioGroup>
+                  </LinearLayout>-->
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
-                    android:text="Type of Grocery"
                     android:fontFamily="@font/lora_bold"
+                    android:text="Type of Grocery"
                     android:textColor="@color/black" />
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -244,5 +247,4 @@
     </ScrollView>
 
 
-
-    </LinearLayout>
+</LinearLayout>

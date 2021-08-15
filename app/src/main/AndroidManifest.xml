@@ -16,7 +16,7 @@
         android:theme="@style/Theme.Naivas"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name=".customer.activities.FeedBackReply"></activity>
+        <activity android:name=".customer.activities.FeedBackReply" />
         <activity android:name=".driver.AssignedOrderDetails" />
         <activity android:name=".driver.AssignedOrders" />
         <activity android:name=".distributionmanager.activities.DispatchedOrders" />

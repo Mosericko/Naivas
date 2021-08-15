@@ -46,7 +46,6 @@ import java.util.Objects;
 import static android.app.Activity.RESULT_OK;
 
 public class AddProductsFragment extends Fragment {
-
     ImageView selectPhoto;
     EditText prodName,prodQuantity,prodPrice;
     AutoCompleteTextView categGrocery;

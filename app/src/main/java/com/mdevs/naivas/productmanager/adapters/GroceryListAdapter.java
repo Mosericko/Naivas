@@ -87,14 +87,11 @@ public class GroceryListAdapter extends RecyclerView.Adapter<GroceryListAdapter.
             AlertDialog.Builder builder = new AlertDialog.Builder(itemView.getContext());
             builder.setTitle("Caution")
                     .setMessage("Are You Sure You Want to Archive?")
-                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
+                    .setPositiveButton("Ok", (dialog, which) -> {
 
-                          archiveId();
-                            //Toast.makeText(itemView.getContext(), "Okay!!", Toast.LENGTH_SHORT).show();
+                      archiveId();
+                        //Toast.makeText(itemView.getContext(), "Okay!!", Toast.LENGTH_SHORT).show();
 
-                        }
                     })
                     .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                         @Override
